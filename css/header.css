@@ -36,5 +36,5 @@ li a {
 }
 
 .navegacao ul li a:not(.botao-contato):hover {
-    border-bottom: 2px solid #9b6fb5; /* muda a cor da borda no hover */
+    border-bottom: 3px solid #9b6fb5; /* muda a cor da borda no hover */
 }
