@@ -1,16 +1,18 @@
-*{
+* {
     padding: 0;
     margin: 0;      
     box-sizing: border-box;
 }
-body{
+body {
     max-width: 1550px;
     margin: 0 auto;
     padding-inline: 32px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
