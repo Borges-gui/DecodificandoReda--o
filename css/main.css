@@ -1,0 +1,38 @@
+main img {
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+main {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+    
+}
+
+.text-main {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.text-main h1 {
+    color: #333333;
+    font-size: 50px;
+    letter-spacing: 0.1;
+}
+
+.text-main p {
+   
+    font-size: 23px;
+    font-weight: 300;
+    color: #818181;
+    text-align: justify;
+}
