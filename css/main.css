@@ -8,29 +8,25 @@ main img {
 main {
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 40px;
-    
-    
+    padding: 20px;
 }
 
 .text-main {
-    font-family: 'Lato', sans-serif;
+    font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
     gap: 20px;
-
 }
 
 .text-main h1 {
     color: #333333;
     font-size: 50px;
-    letter-spacing: 0.1;
 }
 
 .text-main p {
-   
     font-size: 23px;
     font-weight: 300;
     color: #818181;

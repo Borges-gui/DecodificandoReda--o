@@ -3,11 +3,6 @@
     margin: 0;      
     box-sizing: border-box;
 }
-body {
-    max-width: 1550px;
-    margin: 0 auto;
-    padding-inline: 32px;
-}
 
 a {
     text-decoration: none;
@@ -15,4 +10,10 @@ a {
 
 li {
     list-style: none;
+}
+
+.container{
+    max-width: 1550px;
+    margin: 0 auto;
+    padding-inline: 32px;
 }
