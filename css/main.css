@@ -8,21 +8,23 @@ main img {
 }
 
 main {
+    background-color: #c5b9d1;
+    padding: 20px;
     margin-top: 10px;
+    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
-    background-color: #c5b9d1;
     
 }
 
 .text-main {
     font-family: 'Poppins', sans-serif;
+    gap: 20px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
     
 }
 

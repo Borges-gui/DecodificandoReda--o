@@ -1,0 +1,80 @@
+.sobre-mim img {
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+}
+
+.sobre-mim {
+    padding: 20px;
+    background-color: #c5b9d1;
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.sobre-mim-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre-mim-text h2 {
+    font-size: 30px;
+    color: #333333;
+}
+
+.sobre-mim-text p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #3b3b3b;
+    margin-top: 20px;
+
+}
+
+.destaques {
+    margin-top: 30px;
+
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+}
+
+.destaque {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 10px;          
+    
+    padding: 8px;
+}
+
+.destaque p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #3b3b3b;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icone {
+    padding: 8px;
+    background-color: #8a7999;
+    border-radius: 20px;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -4,17 +4,19 @@ header img {
 }
 
 header {
+    margin-top: 18px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 18px;
 }
 
 ul {
-    display: flex;
     gap: 24px;
     font-size: 20px;
     font-family: "Lato", sans-serif;
+    
+    display: flex;
 }
 
 li a {
