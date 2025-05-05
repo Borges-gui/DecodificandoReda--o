@@ -1,5 +1,5 @@
 .sobre-mim img {
-    width: 500px;
+    width: 400px;
     height: 700px;
     object-fit: cover;
     border-radius: 10px;
@@ -11,9 +11,9 @@
     padding: 20px;
     background-color: #c5b9d1;
     font-family: 'Poppins', sans-serif;
-
+    
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     gap: 20px;
     
@@ -23,6 +23,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 900px;
 }
 
 .sobre-mim-text h2 {
