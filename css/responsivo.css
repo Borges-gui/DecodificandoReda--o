@@ -1,0 +1,126 @@
+
+/* responsivo.css */
+
+/* LOGO */
+
+/* MAIN */
+
+
+@media (max-width: 768px) {
+
+    header img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    main img {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .text-main h1 {
+        font-size: 28px;
+    }
+
+    .text-main p {
+        font-size: 18px;
+    }
+
+    .botoes-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botao1,
+    .botao2 {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+/* SOBRE */
+@media (max-width: 768px) {
+    .sobre-mim {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .sobre-mim img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .sobre-mim-text h2 {
+        font-size: 26px;
+    }
+
+    .sobre-mim-text p {
+        font-size: 18px;
+    }
+
+    .destaques {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .destaque {
+        justify-content: center;
+    }
+}
+
+/* PROJETOS */
+@media (max-width: 768px) {
+    .projetos-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projetos-cards img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-projects {
+        width: 100%;
+    }
+}
+
+/* HABILIDADES */
+@media (max-width: 768px) {
+    .container-disciplinas {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .disciplinas,
+    .competencias {
+      width: 100%;
+    }
+  
+    .cards-competencias {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .card-competencia {
+      width: 100%;
+    }
+  }
+
+/* HEADER - Esconder nav no mobile */
+@media (max-width: 768px) {
+    header nav {
+        display: none;
+    }
+}
