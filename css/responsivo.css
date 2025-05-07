@@ -138,3 +138,69 @@
       max-width: 90%;
     }
   }
+
+  /* RESPONSIVO CONTATO  */
+@media (max-width: 1024px) {
+    .contato {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-img img {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .contact-container h3 {
+        font-size: 26px;
+    }
+
+    .contact-container p,
+    .contacts h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-container h3 {
+        font-size: 22px;
+    }
+
+    .contact-container p,
+    .contacts h4 {
+        font-size: 14px;
+    }
+
+    .icons-social {
+        justify-content: center;
+    }
+
+    .contact-img img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Responsividade footer */
+@media (max-width: 768px) {
+    footer {
+        padding: 20px;
+    }
+
+    footer p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
