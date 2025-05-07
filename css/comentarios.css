@@ -59,10 +59,11 @@
 .conteudo-comentario {
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
 }
 
 .info-usuario {
+    margin-top: 20px;
     padding-right: 10px;
     display: flex;
     align-items: start;

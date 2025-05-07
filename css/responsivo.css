@@ -123,3 +123,18 @@
         display: none;
     }
 }
+
+/* COMENTARIOS RESPONSIVO */
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .comentario-card {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .comment-card {
+      width: 100%;
+      max-width: 90%;
+    }
+  }
