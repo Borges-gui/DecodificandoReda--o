@@ -88,12 +88,30 @@
     .projetos-cards img {
         width: 100%;
         height: auto;
+        
     }
 
     .card-projects {
         width: 100%;
     }
 }
+
+@media (max-width: 1008px) {
+    .projetos-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projetos-cards img {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .card-projects {
+        width: 100%;
+    }
+} 
 
 /* HABILIDADES */
 @media (max-width: 768px) {
@@ -156,6 +174,10 @@
         font-size: 26px;
     }
 
+    .icons-social {
+        margin: 0 auto;
+    }
+
     .contact-container p,
     .contacts h4 {
         font-size: 16px;
@@ -173,7 +195,7 @@
     }
 
     .icons-social {
-        justify-content: center;
+        margin: 0 auto;
     }
 
     .contact-img img {
