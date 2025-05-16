@@ -1,0 +1,49 @@
+.animacao {
+    opacity: 0;
+    transition: all 1.5s;
+
+}
+
+.animacao-mostrar {
+    opacity: 1;
+    transition: all 1.5s;
+
+}
+
+.animacao2 {
+    opacity: 0;
+    transition: all 1.5s;
+    transform: translateY(40%);
+
+}
+
+.animacao2-mostrar {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0);
+
+}
+
+.beneficios-grid :nth-child(1) { transition-delay: 0ms; }
+.beneficios-grid :nth-child(2) { transition-delay: 200ms; }
+.beneficios-grid :nth-child(3) { transition-delay: 400ms; }
+.beneficios-grid :nth-child(4) { transition-delay: 600ms; }
+.beneficios-grid :nth-child(5) { transition-delay: 800ms; }
+.beneficios-grid :nth-child(6) { transition-delay: 1000ms; }
+
+.destaques :nth-child(1) { transition-delay: 0ms; }
+.destaques :nth-child(2) { transition-delay: 200ms; }
+.destaques :nth-child(3) { transition-delay: 400ms; }
+
+.projetos-cards :nth-child(1) { transition-delay: 0ms; }
+.projetos-cards :nth-child(2) { transition-delay: 400ms; }
+.projetos-cards :nth-child(3) { transition-delay: 800ms; }
+
+.cards-competencias :nth-child(1) { transition-delay: 0ms; }
+.cards-competencias :nth-child(2) { transition-delay: 200ms; }
+.cards-competencias :nth-child(3) { transition-delay: 400ms; }
+.cards-competencias :nth-child(4) { transition-delay: 600ms; }
+
+.comentario-card :nth-child(1) { transition-delay: 0ms; }
+.comentario-card :nth-child(2) { transition-delay: 200ms; }
+.comentario-card :nth-child(3) { transition-delay: 400ms; }
